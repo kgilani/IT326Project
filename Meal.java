@@ -1,13 +1,13 @@
 //meal class contains methods and variables pertaining to an individual meal composed of ingredients
 //extends ingredient and APIDelegator
-public class meal{
+public class Meal{
     String name = "";
     String description = "";
     int totalCalories = "";
     String mealType = "";
     Date dateToConsume ;
 
-    meal(String name, String description, int totalCalories, 
+    Meal(String name, String description, int totalCalories,
     String mealType, Date dateToConsume){
         this.name = name;
         this.description = description;
@@ -15,7 +15,7 @@ public class meal{
         this.mealType = mealType;
         this.dateToConusme = dateToConsume;
     }
-    public ingredient addingredient(){
+    public Ingredient addingredient(){
 
     }
     public void deleteIngredient(){
