@@ -4,16 +4,14 @@ public class Exercise {
   private String name;
   private String description;
   private int caloriesToBurn;
-  private int sets;
-  private int repititions;
   private boolean isFinished;
+  private boolean isCardio;
   
-  public Exercise(String name, String description, int calriesToBurn, int sets, int repitions){
+  public Exercise(String name, String description, int calriesToBurn, boolean isCardio){
     this.name = name;
     this.description = description;
     this.calriesToBurn = calriesToBurn;
-    this.sets = sets;
-    this.repititions = repititions;
+    this.isCardio = isCardio;
     isFinished = false;
   }
   
@@ -28,11 +26,8 @@ public class Exercise {
   public int getCalories(){
     return calriesToBurn;
   }
-  public int getSets(){
-     return sets;
-  }
-  public int getReps(){
-     return repitions;
+  public boolean isCardio(){
+    return isCardio;
   }
   public boolean isFinished(){
     return isFinished;
