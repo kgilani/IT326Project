@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="006bc9e9-d565-4fcf-b62c-a4ca5fac43e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/APIDelegator.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIDelegator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Goal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoalManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mealPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/MealPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout.java" beforeDir="false" afterPath="$PROJECT_DIR$/Workout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nutrition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoalManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +22,37 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NeCRNMPK0zwC3YU1sOkHbbOGyT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/bot/it326/IT326Project"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="IT326Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="IT326Project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,5 +74,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
