@@ -1,5 +1,5 @@
 //exercise class contains methods and variables that are needed for individual exercises
-public class Exercise {
+public class Exercise implements Cloneable{
   
   private String name;
   private String description;
@@ -7,12 +7,20 @@ public class Exercise {
   private boolean isFinished;
   private boolean isCardio;
   
-  public Exercise(String name, String description, int calriesToBurn, boolean isCardio){
+  public Exercise(String name, String description, int caloriesToBurn, boolean isCardio){
     this.name = name;
     this.description = description;
-    this.calriesToBurn = calriesToBurn;
+    this.caloriesToBurn = caloriesToBurn;
     this.isCardio = isCardio;
     isFinished = false;
+  }
+  
+  public Object clone(){
+    try {
+      return super.clone();
+    } catch (CloneNotSupportedException e) {
+      throw new RuntimeException(e);
+    }
   }
   
   public void finishExercise(){
@@ -24,7 +32,7 @@ public class Exercise {
   }
   
   public int getCalories(){
-    return calriesToBurn;
+    return caloriesToBurn;
   }
   public boolean isCardio(){
     return isCardio;
